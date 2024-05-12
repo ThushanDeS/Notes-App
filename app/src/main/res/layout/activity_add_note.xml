@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".AddNoteActivity">
+    tools:context=".AddNoteActivity"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/addNoteHeading"
@@ -33,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter the title"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_below="@id/addNoteHeading"
         android:background="@drawable/orange_border"
@@ -46,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="Enter the description"
+        android:textColor="@color/black"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
